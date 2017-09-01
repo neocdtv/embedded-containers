@@ -5,12 +5,17 @@
  */
 package io.neocdtv.embedded.containers.payara.micro;
 
+import fish.payara.micro.BootstrapException;
+import fish.payara.micro.PayaraMicro;
+
 /**
  *
  * @author wolfkr
  */
 public class Main {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws BootstrapException {
+        PayaraMicro instance = PayaraMicro.getInstance();
+        instance.addDeployment("test.war")
+                .bootStrap();
     }
 }

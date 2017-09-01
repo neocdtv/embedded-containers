@@ -11,6 +11,6 @@ package io.neocdtv.embedded.containers.payara.microprofile;
  */
 public class Main {
     public static void main(String[] args) {
-        
+
     }
 }
