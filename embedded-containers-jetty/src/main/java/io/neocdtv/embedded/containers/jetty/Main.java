@@ -19,6 +19,9 @@ import org.jboss.weld.environment.servlet.Listener;
 
 import javax.servlet.ServletException;
 import javax.websocket.DeploymentException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * WebSocketServerEndpoint
