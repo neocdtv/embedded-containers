@@ -18,6 +18,18 @@
 
   <dependencies>
     <dependency>
+      <groupId>io.neocdtv</groupId>
+      <artifactId>zenplayer-renderer-shared</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.neocdtv</groupId>
+      <artifactId>player-core</artifactId>
+      <version>0.2</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
       <version>${jetty.version}</version>

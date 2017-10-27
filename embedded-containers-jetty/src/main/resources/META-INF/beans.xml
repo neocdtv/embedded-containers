@@ -7,8 +7,6 @@
       http://java.sun.com/xml/ns/javaee/beans_1_1.xsd">
   <weld:scan>
 
-    <weld:include name="io.neocdtv.**"/>
-    <weld:include name="javax.enterprise.**"/>
-    <weld:include name="org.jboss.weld.manager.BeanManagerImpl"/>
+    <weld:include name="io.neocdtv.embedded.containers.jetty.**"/>
   </weld:scan>
 </beans>
